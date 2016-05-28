@@ -46,6 +46,30 @@ button {
 .img-div{
 	margin: 40px;
 	float: left;
-
 }
 
+.title-pos1 {
+	display: inline-block;
+	position: relative;
+	left: 320px;
+	top: 0px;
+}
+.title-pos2 {
+	display: inline-block;
+	position: relative;
+	left: 620px;
+	top: 0px;
+}
+.title-pos3 {
+	display: inline-block;
+	position: relative;
+	left: 20px;
+	top: 50px;
+	margin-bottom: 50px;
+}
+.title-pos4 {
+	display: inline-block;
+	position: relative;
+	left: 200px;
+	top: 50px;
+}
