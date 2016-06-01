@@ -21,11 +21,12 @@ $(document).ready(function() {
 	// Actually that is far easier
 	var win = 0;
 	var loss = 0;
+	var cpuRandNumber;
 	function initializeRandomNumbers(){
     	var captureNums = genRandNumCrystals(); 
     	console.log(captureNums);
     	console.log(getRandNum);
-    	var cpuRandNumber = getRandNum();
+    	cpuRandNumber = getRandNum();
     	var randNumberCrystals =  
     	// random number displayed
     	$('#numBeat').html(cpuRandNumber);
